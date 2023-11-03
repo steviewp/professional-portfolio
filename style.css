@@ -1,3 +1,49 @@
-* {
+header {
+    width: 100%;
     outline: 1px solid red;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    outline: 2px solid blue;
+    margin-left: 20px;
+}
+
+nav {
+    /* outline: 2px solid orange; */
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    /* outline: 3px solid brown; */
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    list-style-type: none
+}
+
+section {
+    width: 100%;
+    min-height: 200px;
+    outline: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    outline: 3px solid blue;
+    height: 200px;
+    width: 20%;
+}
+
+.right {
+    outline: 3px solid red;
+    min-height: 200px;
+    width: 80%;
+    padding: 10px;
 }
